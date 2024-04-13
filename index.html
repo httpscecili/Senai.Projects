@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Cecília Melgaço</title>
+    <title>Login Form in HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-  <section> 
-    <h1>Cecília Pereira Melgaço</h1> 
-    <img src="assets\imagens\E0GfqcbXoAEy0yh.jpg">
-  </section> 
-  <section>
-    <h2>Informações Pessoais</h2>
-    <ul>
-        <li>Sexo: Feminino</li>
-        <li>Idade: 19 anos</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Informações de contato</h2>
-    <ul>
-        <li>Telefone:31 9 8201-1043</li>
-        <li>E-mail: cpm2005@yahoo.com</li>
-        <li>Endereço: Alameda Araçari, 145, Dom Cabral-MG</li>
-    </ul>
-    <h2>Habilidades</h2>
-  </section>
-  <section>
-        <li>Conhecimentos em Pacote Office;</li>
-        <li>Adapitalidade a diferentes perfis de empresa;</li>
-        <li>Organização e Dinamismo para realização de tarefas simultaneas;</li>
-        <li>Bom relacionamento interpessoal com equipes e clientes;</li>
-        <li>Facilidade em aprender novos conhecimentos;</li>
-  </section>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Lembre de mim neste dispositivo</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#"> Registre-se</a> </p>
+            </div>
+        </form>
+    </div>
+
+    
 </body>
 </html>
